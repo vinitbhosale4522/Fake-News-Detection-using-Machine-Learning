@@ -444,11 +444,9 @@ elif page == "🎓 About & Resume Info":
     st.markdown('<div class="header-subtitle">Production-ready Machine Learning project designed for B.Tech AI & Data Science resumes and technical interviews</div>', unsafe_allow_html=True)
 
     st.markdown("""
-    ### 🎯 Project Overview
     This **Fake News Detection System** leverages Natural Language Processing (NLP) techniques and Machine Learning classifiers to detect clickbait, exaggerated, or fabricated news articles.
 
     ---
-    ### 🧠 Technical Pipeline & NLP Architecture
     1. **Data Ingestion**: Kaggle Fake & Real News Dataset integration (`Fake.csv` & `True.csv`).
     2. **NLP Text Preprocessing (`preprocessing.py`)**:
        - Lowercasing, HTML tag stripping, URL/Punctuation removal.
@@ -465,7 +463,6 @@ elif page == "🎓 About & Resume Info":
        - Streamlit responsive dashboard with color-coded classification, confidence gauge, dataset analytics, and word cloud visualization.
 
     ---
-    ### 💼 Interview & Resume Highlight Points (AI/ML Fresher)
     * **Bullet Point 1**: Developed an end-to-end NLP Fake News Detection Web Application using Python, Scikit-learn, TF-IDF Vectorizer, and Streamlit.
     * **Bullet Point 2**: Applied custom text preprocessing (NLTK Stopwords removal & Porter Stemming), reducing feature space dimension while retaining semantic context.
     * **Bullet Point 3**: Evaluated Logistic Regression, Naive Bayes, and Random Forest models across Accuracy, Precision, Recall, F1-Score, and ROC-AUC metrics.
